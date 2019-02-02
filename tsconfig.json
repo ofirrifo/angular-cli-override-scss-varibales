@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "sol-lib": [
+        "dist/sol-lib"
+      ],
+      "sol-lib/*": [
+        "dist/sol-lib/*"
+      ]
+    }
   }
 }
